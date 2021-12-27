@@ -14,7 +14,7 @@ import pi_participants_info as ptc
 root = tkinter.Tk()
 w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.overrideredirect(1)
-root.geometry("800x600+%d+0" % (w - 800))
+# root.geometry("800x600+%d+0" % (w - 800))
 canvas = tkinter.Canvas(root,width=w,height=h)
 canvas.pack()
 canvas.configure(background='white')
